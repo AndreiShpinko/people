@@ -70,10 +70,6 @@
 .people__face--4:before {
   background-image: url("../img/person4.jpg");
 }
-.people__face:hover .people__links-wrap {
-  margin-top: 0;
-  transition: 1s;
-}
 .people__links-wrap {
   position: absolute;
   width: 100%;
@@ -216,14 +212,23 @@ input:checked ~ .people__links-wrap {
   .icon:before {
     line-height: 30px;
   }
-  /* .people__btn {
-    display: inline-block;
-    transform: scale(0.5) translate(-100%, 0);
-  } */
-}
-@media (pointer: none) {
   .people__btn {
     display: inline-block;
     transform: scale(0.5) translate(-100%, 0);
   }
+  .people__face:hover .people__links-wrap {
+    /* margin-top: 120%; */
+  }
 }
+@media (min-width: 768px) {
+  .people__face:hover .people__links-wrap {
+    margin-top: 0;
+    transition: 1s;
+  }
+}
+/* @media (pointer: none) {
+  .people__btn {
+    display: inline-block;
+    transform: scale(0.5) translate(-100%, 0);
+  }
+} */
