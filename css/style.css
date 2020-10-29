@@ -53,6 +53,8 @@ input {
   height: 270px;
   position: relative;
   overflow: hidden;
+  position: relative;
+  z-index: -10;
 }
 .people__face:before {
   content: "";
