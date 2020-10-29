@@ -216,10 +216,14 @@ input:checked ~ .people__links-wrap {
   .icon:before {
     line-height: 30px;
   }
+  /* .people__btn {
+    display: inline-block;
+    transform: scale(0.5) translate(-100%, 0);
+  } */
+}
+@media (pointer: none) {
   .people__btn {
     display: inline-block;
     transform: scale(0.5) translate(-100%, 0);
   }
 }
-/* @media (pointer: none) {
-} */
