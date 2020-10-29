@@ -37,6 +37,9 @@
   margin-top: 55px;
   justify-content: center;
 }
+input {
+  display: none;
+}
 .people__item {
   display: flex;
   flex-direction: column;
@@ -154,5 +157,11 @@
   }
   .icon:before {
     line-height: 30px;
+  }
+}
+@media (pointer: none) {
+  input:checked {
+    margin-top: 0;
+    transition: 1s;
   }
 }
