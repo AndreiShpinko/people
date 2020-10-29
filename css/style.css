@@ -216,9 +216,6 @@ input:checked ~ .people__links-wrap {
     display: inline-block;
     transform: scale(0.5) translate(-100%, 0);
   }
-  .people__face:hover .people__links-wrap {
-    /* margin-top: 120%; */
-  }
 }
 @media (min-width: 768px) {
   .people__face:hover .people__links-wrap {
@@ -226,9 +223,3 @@ input:checked ~ .people__links-wrap {
     transition: 1s;
   }
 }
-/* @media (pointer: none) {
-  .people__btn {
-    display: inline-block;
-    transform: scale(0.5) translate(-100%, 0);
-  }
-} */
